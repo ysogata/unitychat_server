@@ -1,6 +1,6 @@
 var ws = require('websocket.io');
 var server = ws.listen(8080, function () {
-    console.log('\033[96m Server running at www2156uo.sakura.ne.jp:8080 \033[39m');
+    console.log('\033[96m Server running at port 8080 \033[39m');
 });
 
 var login_num = 0;
